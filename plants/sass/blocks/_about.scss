@@ -1,0 +1,33 @@
+.about {
+    background-color: #FFFFFF;
+	padding: 93px 109px;
+	&__wrapper {
+		width: 1222px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&-descr {
+			h2 {
+				font-family: 'Inika';
+				color: #499A18;
+				font-weight: 400;
+				font-size: 40px;
+				line-height: 52px;
+				margin-top: 25px;
+				margin-right: 295px;
+			}
+			span {
+				color: #E06733;
+			}
+			p {
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 30px;
+				color: #636060;
+				margin-top: 40px;
+				margin-right: 153px;
+				letter-spacing: 0.1px;
+			}
+		}
+	}
+}
